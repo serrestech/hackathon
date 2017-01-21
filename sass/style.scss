@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: $brand-primary;
+  background: $brand-primary;
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
@@ -91,12 +91,16 @@ a {
   display: block;
   margin-bottom: 10px;
   box-shadow: 0 0 6px #26a2de;
+  border-radius: 3px;
 
   &.twitter {
     background: url(../img/social/twitter.png) no-repeat;
   }
   &.facebook {
     background: url(../img/social/facebook.png) no-repeat;
+  }
+  &.github {
+    background: url(../img/social/github.png) no-repeat #fff;
   }
 }
 
