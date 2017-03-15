@@ -265,6 +265,25 @@ a {
   }
 }
 
+.timeline-item-date {
+  .subheading-item {
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+  }
+}
+
+.date-lg {
+  font-size: 180px;
+  line-height: 57%;
+  display: block;
+  background: #fff;
+  color: #26a7de;
+}
+
+.month {
+  color: #fff;
+}
+
 .icon-circle {
   $circle-size: 50px;
 
@@ -362,4 +381,18 @@ a {
   @media (max-width: $tablet-width) {
     font-size: 18px;
   }
+}
+
+#mc_embed_signup {
+  clear: left;
+  font-size: 14px;
+  width:300px;
+  margin: 2em auto 0;
+  h2 {
+    display: none;
+  }
+}
+
+#mce-EMAIL {
+  color: $dark-blue;
 }
