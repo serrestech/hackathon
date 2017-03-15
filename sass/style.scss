@@ -21,9 +21,10 @@ html {
 body {
   background: $brand-primary;
   color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: Jura, sans-serif;
   font-size: 24px;
   overflow-x: hidden;
+  font-weight: 400;
 
   @media (max-width: $tablet-width) {
     font-size: 18px;
@@ -119,7 +120,7 @@ a {
 
 .hashtag {
   font-weight: $font-weight-bold;
-  font-style: italic;
+  //font-style: italic;
 }
 
 .black {
@@ -150,6 +151,7 @@ a {
     transform: rotate($degree) skew($degree);
 
     .section-heading-name {
+      font-family: 'Open Sans', sans-serif;
       background-color: $base-color;
       color: $theme-gray;
       font-size: 48px;
@@ -210,6 +212,7 @@ a {
 }
 
 .subheading-item {
+  font-family: 'Open Sans', sans-serif;
   color: $theme-gray;
   font-size: 28px;
   font-weight: $font-weight-bold;
@@ -280,6 +283,7 @@ a {
 }
 
 .month {
+  font-family: Jura, sans-serif;
   color: #fff;
   display: block;
   text-align: center;
