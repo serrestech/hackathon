@@ -397,3 +397,10 @@ a {
 #mce-EMAIL {
   color: $dark-blue;
 }
+
+// hidden content
+.awards-section,
+.categories-section,
+.sponsors-section {
+  display: none;
+}
