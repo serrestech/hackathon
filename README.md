@@ -3,9 +3,9 @@
 ## Install
 
 ```
-git clone git@github.com:serreshack/website.git
+git clone git@github.com:serrestech/hackathon.git
 
-cd website
+cd hackathon
 
 npm install
 
