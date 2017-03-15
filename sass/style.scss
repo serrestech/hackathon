@@ -267,7 +267,6 @@ a {
 
 .timeline-item-date {
   .subheading-item {
-    border: 1px solid #fff;
     margin-bottom: 30px;
   }
 }
@@ -282,6 +281,8 @@ a {
 
 .month {
   color: #fff;
+  display: block;
+  text-align: center;
 }
 
 .icon-circle {
