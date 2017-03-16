@@ -396,6 +396,24 @@ a {
   h2 {
     display: none;
   }
+  .button {
+    position: absolute;
+    top: 36px;
+    right: 11px;
+    width: 40px;
+    background: $theme-blue;
+    padding: 0;
+    overflow: hidden;
+  }
+  .mc-field-group {
+    label {
+      text-align: center;
+    }
+    input {
+      padding-right: 110px !important;
+      font-family: "Open Sans", sans-serif;
+    }
+  }
 }
 
 #mce-EMAIL {
