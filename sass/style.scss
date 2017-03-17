@@ -1,7 +1,7 @@
 // sass --watch scss/style.scss:css/style.css --style compressed --sourcemap=none
 
 $theme-green: #24b34b;
-$theme-gray: #363a45;
+$theme-gray: #313131;
 $theme-blue: #26a7de;
 
 $dark-blue: #248ab5;
@@ -153,7 +153,7 @@ a {
     .section-heading-name {
       font-family: 'Open Sans', sans-serif;
       background-color: $base-color;
-      color: $theme-gray;
+      color: $theme-blue;
       font-size: 48px;
       font-weight: $font-weight-bold;
       padding: 10px 50px;
@@ -378,10 +378,49 @@ a {
     background-size: 60%;
     background-image: url('../img/prizes/amazon-gift-cards.png');
   }
+
+  &.computerlab {
+    background-size: 80%;
+    background-image: url('../img/prizes/computerlab.png');
+  }
+  &.schoox {
+    background-size: 80%;
+    background-image: url('../img/prizes/schoox.png');
+  }
+  &.datascouting {
+    background-size: 80%;
+    background-image: url('../img/prizes/datascouting.png');
+  }
+  &.interworks {
+    background-size: 80%;
+    background-image: url('../img/prizes/interworks.png');
+  }
+  &.mkihellas {
+    background-size: 80%;
+    background-image: url('../img/prizes/mkihellas.png');
+  }
+  &.tessera {
+    background-size: 80%;
+    background-image: url('../img/prizes/tessera.png');
+  }
+  &.itsaur {
+    background-size: 80%;
+    background-image: url('../img/prizes/itsaur.png');
+  }
+  &.mammaspizza {
+    background-size: 80%;
+    background-image: url('../img/prizes/mammaspizza.png');
+  }
+  &.rekor {
+    background-size: 80%;
+    background-image: url('../img/prizes/rekor.png');
+  }
+
 }
 
 .prize-text {
   text-align: center;
+  margin: 10px 0 30px;
 
   @media (max-width: $tablet-width) {
     font-size: 18px;
@@ -396,13 +435,12 @@ a {
   h2 {
     display: none;
   }
-  .button {
+  input.button {
     position: absolute;
     top: 36px;
     right: 11px;
-    width: 40px;
-    background: $theme-blue;
-    padding: 0;
+    background-color: $theme-gray;
+    border-radius: 0;
     overflow: hidden;
   }
   .mc-field-group {
@@ -421,8 +459,8 @@ a {
 }
 
 // hidden content
+//.sponsors-section,
 .awards-section,
-.categories-section,
-.sponsors-section {
+.categories-section {
   display: none;
 }
