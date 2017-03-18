@@ -19,12 +19,13 @@ html {
 }
 
 body {
-  background: $brand-primary;
+  background: url("../img/hackbg.png") no-repeat center bottom $brand-primary;
   color: #fff;
   font-family: Jura, sans-serif;
   font-size: 24px;
   overflow-x: hidden;
   font-weight: 400;
+  padding-bottom: 100px;
 
   @media (max-width: $tablet-width) {
     font-size: 18px;
