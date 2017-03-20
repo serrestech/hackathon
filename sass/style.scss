@@ -2,7 +2,7 @@
 
 $theme-green: #24b34b;
 $theme-gray: #313131;
-$theme-blue: #26a7de;
+$theme-blue: #035e84;
 
 $dark-blue: #248ab5;
 
@@ -19,17 +19,26 @@ html {
 }
 
 body {
-  background: url("../img/hackbg.png") no-repeat center bottom $brand-primary;
+  background: url("../img/bg.png") no-repeat right top fixed $brand-primary;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
   color: #fff;
   font-family: Jura, sans-serif;
   font-size: 24px;
   overflow-x: hidden;
   font-weight: 400;
-  padding-bottom: 100px;
 
   @media (max-width: $tablet-width) {
     font-size: 18px;
   }
+}
+
+.page {
+  background: url("../img/hackbg.png") no-repeat center bottom;
+  padding-bottom: 100px;
 }
 
 ol,
