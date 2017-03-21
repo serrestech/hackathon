@@ -416,7 +416,10 @@ a {
     background-size: 80%;
     background-image: url('../img/prizes/rekor.png');
   }
-
+  &.serresdelivery {
+    background-size: 80%;
+    background-image: url('../img/prizes/serresdelivery.png');
+  }
 }
 
 .prize-text {
