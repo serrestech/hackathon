@@ -415,8 +415,7 @@ a {
   }
   &.itsaur {
     background-size: 80%;
-    background-image: url('../img/prizes/itsaur.png');
-    background-color: #253327;
+    background-image: url('../img/prizes/itsaur.jpg');
   }
   &.mammaspizza {
     background-size: 80%;
@@ -455,6 +454,10 @@ a {
     background-size: 80%;
     background-image: url('../img/prizes/thanpa.png');
     background-color: #3b3b3c;
+  }
+  &.computerschool {
+    background-size: 80%;
+    background-image: url('../img/prizes/computerschool.png');
   }
 
 }
