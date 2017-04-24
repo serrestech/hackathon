@@ -460,6 +460,16 @@ a {
     background-image: url('../img/prizes/computerschool.png');
   }
 
+  // Media Partners
+  &.skywalker {
+    background-size: 80%;
+    background-image: url('../img/media/skywalker.jpg');
+  }
+  &.ellak {
+    background-size: 80%;
+    background-image: url('../img/media/ellak.png');
+  }
+
 }
 
 .prize-text {
