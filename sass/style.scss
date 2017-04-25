@@ -464,6 +464,10 @@ a {
     background-size: 80%;
     background-image: url('../img/media/skywalker.jpg');
   }
+  &.emea {
+    background-size: 80%;
+    background-image: url('../img/media/emea.jpg');
+  }
   &.ellak {
     background-size: 80%;
     background-image: url('../img/media/ellak.png');
@@ -488,6 +492,18 @@ a {
     background-size: 80%;
     background-image: url('../img/media/serraikanea.png');
     background-color: #1c0067;
+  }
+  &.eproodos {
+    background-size: 80%;
+    background-image: url('../img/media/eproodos.png');
+  }
+  &.startupper {
+    background-size: 80%;
+    background-image: url('../img/media/startupper.png');
+  }
+  &.serrestv {
+    background-size: 80%;
+    background-image: url('../img/media/serrestv.jpeg');
   }
 }
 
