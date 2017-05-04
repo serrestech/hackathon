@@ -50,6 +50,17 @@ ul {
   }
 }
 
+.timeline-item-details {
+  ul {
+    margin-bottom: 0;
+    margin-left: 10px;
+    > li {
+      margin-bottom: 2px;
+      line-height: 1;
+    }
+  }
+}
+
 a {
   color: #fff;
   text-decoration: underline;
