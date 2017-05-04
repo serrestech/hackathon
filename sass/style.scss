@@ -566,8 +566,34 @@ a {
   color: $dark-blue;
 }
 
-// hidden content
-//.sponsors-section,
-.awards-section {
-  display: none;
+@media print {
+  body {
+    font-size: 20pt;
+    height: auto;
+  }
+
+  .text-right {
+    text-align: left;
+  }
+
+  .banner {
+    display: none
+  }
+
+  .section {
+    .section-heading {
+      transform: none;
+      margin: 0;
+
+      .section-heading-name {
+        padding: 0;
+      }
+
+      .section-body {
+        margin-top: 0;
+      }
+    }
+  }
+
 }
+
