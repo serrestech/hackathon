@@ -41,6 +41,13 @@ body {
   padding-bottom: 100px;
 }
 
+.panel {
+  background-color: transparent;
+  border: 1px solid #fff;
+  text-align: center;
+  padding-top: 6px;
+}
+
 ol,
 ul {
   padding-left: 20px;
@@ -494,6 +501,7 @@ a {
   &.autonomous {
     background-size: 80%;
     background-image: url('../img/media/autonomous.png');
+    background-color: #000;
   }
   &.goserres {
     background-size: 80%;
@@ -515,6 +523,11 @@ a {
   &.anexartitos {
     background-size: 80%;
     background-image: url('../img/media/anexartitos.png');
+  }
+  &.epiloges {
+    background-size: 80%;
+    background-image: url('../img/media/epiloges.png');
+    background-color: #e2001a;
   }
   &.serrestv {
     background-size: 80%;
