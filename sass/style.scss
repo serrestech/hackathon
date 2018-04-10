@@ -3,10 +3,12 @@
 $theme-green: #24b34b;
 $theme-gray: #313131;
 $theme-blue: #035e84;
+$theme-red: #c10000;
+$theme-white: #ffffff;
 
 $dark-blue: #248ab5;
 
-$brand-primary: $theme-blue;
+$brand-primary: $theme-red;
 $base-color: #fff;
 
 $font-weight-normal: 400;
@@ -19,7 +21,8 @@ html {
 }
 
 body {
-  background: url("../img/bg.png") no-repeat right top fixed $brand-primary;
+  //background: url("../img/bg.png") no-repeat right top fixed $brand-primary;
+  background: $brand-primary;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -138,7 +141,7 @@ a {
   margin: 2em 0;
 
   span {
-    background: $dark-blue;
+    background: darken($theme-red, 10);
     color: #fff;
     padding: 3px 4px;
     border-radius: 3px;
@@ -181,7 +184,7 @@ a {
     .section-heading-name {
       font-family: 'Open Sans', sans-serif;
       background-color: $base-color;
-      color: $theme-blue;
+      color: $theme-red;
       font-size: 48px;
       font-weight: $font-weight-bold;
       padding: 10px 50px;
@@ -195,7 +198,6 @@ a {
   }
 
   .section-subheading {
-    color: $theme-gray;
     font-size: 36px;
     font-weight: $font-weight-bold;
     margin-bottom: 10px;
@@ -234,14 +236,14 @@ a {
   .subheading-item {
     text-align: center;
     margin-bottom: 30px;
-    border: 1px solid #39b5ea;
+    border: 1px solid $theme-white;
     padding: 20px;
   }
 }
 
 .subheading-item {
   font-family: 'Open Sans', sans-serif;
-  color: $theme-gray;
+  color: $theme-white;
   font-size: 28px;
   font-weight: $font-weight-bold;
   margin-top: 0;
@@ -318,20 +320,26 @@ a {
 }
 
 .icon-circle {
-  $circle-size: 50px;
+  $circle-size: 60px;
 
-  background-color: $base-color;
+  background-color: $theme-white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60%;
-  border-radius: $circle-size/2;
+  border-radius: 0 $circle-size/2 $circle-size/2;
   display: inline-block;
   height: $circle-size;
   vertical-align: middle;
   width: $circle-size;
+  color: $theme-red;
+
+  text-align: center;
+  font-size: $circle-size/2;
+  font-weight: bold;
+  line-height: $circle-size;
 
   &.timeline-icon {
-    left: calc(50% - 25px);
+    left: calc(50% - $circle-size/2);
     position: absolute;
   }
 
@@ -618,3 +626,6 @@ a {
 
 }
 
+.js-hidden {
+  display: none;
+}

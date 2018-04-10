@@ -1,4 +1,8 @@
-# Hackathon Serres 2017
+# Hackathon Serres 2018
+
+[hackathon.serrestech.gr](http://hackathon.serrestech.gr)
+
+- Archive of [Hackathon 2017](http://hackathon.serrestech.gr/2017)
 
 ## Install
 
