@@ -4,19 +4,35 @@
 
 - Archive of [Hackathon 2017](http://hackathon.serrestech.gr/2017)
 
-## Install
+# Install
 
+## Install Gulp
 ```
-git clone git@github.com:serrestech/hackathon.git
+npm install gulp -g
+```
+
+## Clone Git
+```
+git clone https://github.com/serrestech/hackathon.git
 
 cd hackathon
+```
 
+## Install Dependencies
+```
 npm install
+```
 
-// Run gulp opens url http://localhost:8000
+## Run
+```
 gulp
+```
+### (Gulp opens url http://localhost:8000)
 
-... edit code
 
-git commit etc
+## Have fun !
+```
+...edit code...
+
+git commit etc..
 ```
