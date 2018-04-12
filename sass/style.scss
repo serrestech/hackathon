@@ -40,7 +40,8 @@ body {
 }
 
 .page {
-  background: url("../img/hackbg.png") no-repeat center bottom;
+  background: url("../img/hackbg.png") fixed no-repeat center center;
+  background-size: cover;
   padding-bottom: 100px;
 }
 
@@ -159,7 +160,7 @@ a {
 }
 
 .section {
-  $degree: -10deg;
+  $degree: 0deg;
   $padding: 30px;
 
   padding-bottom: $padding;
