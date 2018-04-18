@@ -403,100 +403,104 @@ a {
 
   &.gear-vr {
     background-size: 80%;
-    background-image: url('../img/prizes/samsung-gear-vr.jpg');
+    background-image: url('../img/sponsors/samsung-gear-vr.jpg');
   }
 
   &.gopro {
     background-size: 60%;
-    background-image: url('../img/prizes/gopro-hero-session.jpg');
+    background-image: url('../img/sponsors/gopro-hero-session.jpg');
   }
 
   &.amazon-gift-cards {
     background-size: 60%;
-    background-image: url('../img/prizes/amazon-gift-cards.png');
+    background-image: url('../img/sponsors/amazon-gift-cards.png');
   }
 
   &.computerlab {
     background-size: 80%;
-    background-image: url('../img/prizes/computerlab.png');
+    background-image: url('../img/sponsors/computerlab.png');
   }
   &.schoox {
     background-size: 80%;
-    background-image: url('../img/prizes/schoox.png');
+    background-image: url('../img/sponsors/schoox.png');
   }
   &.datascouting {
     background-size: 80%;
-    background-image: url('../img/prizes/datascouting.png');
+    background-image: url('../img/sponsors/datascouting.png');
   }
   &.interworks {
     background-size: 80%;
-    background-image: url('../img/prizes/interworks.png');
+    background-image: url('../img/sponsors/interworks.png');
   }
   &.mkihellas {
     background-size: 80%;
-    background-image: url('../img/prizes/mkihellas.png');
+    background-image: url('../img/sponsors/mkihellas.png');
   }
   &.tessera {
     background-size: 80%;
-    background-image: url('../img/prizes/tessera.png');
+    background-image: url('../img/sponsors/tessera.png');
   }
   &.itsaur {
     background-size: 80%;
-    background-image: url('../img/prizes/itsaur.jpg');
+    background-image: url('../img/sponsors/itsaur.jpg');
   }
   &.mammaspizza {
     background-size: 80%;
-    background-image: url('../img/prizes/mammaspizza.png');
+    background-image: url('../img/sponsors/mammaspizza.png');
   }
   &.rekor {
     background-size: 80%;
-    background-image: url('../img/prizes/rekor.png');
+    background-image: url('../img/sponsors/rekor.png');
   }
   &.serresdelivery {
     background-size: 80%;
-    background-image: url('../img/prizes/serresdelivery.png');
+    background-image: url('../img/sponsors/serresdelivery.png');
   }
   &.girogirooloi{
     background-size: 80%;
-    background-image: url('../img/prizes/girogirooloi.jpg');
+    background-image: url('../img/sponsors/girogirooloi.jpg');
     background-color: #32292c;
   }
   &.kaliteros{
     background-size: 80%;
-    background-image: url('../img/prizes/kaliteros.jpg');
+    background-image: url('../img/sponsors/kaliteros.jpg');
   }
   &.nektar {
     background-size: 80%;
-    background-image: url('../img/prizes/nektar.png');
+    background-image: url('../img/sponsors/nektar.png');
   }
   &.athlenda {
     background-size: 80%;
-    background-image: url('../img/prizes/athlenda.png');
+    background-image: url('../img/sponsors/athlenda.png');
   }
   &.veltio {
     background-size: 80%;
-    background-image: url('../img/prizes/veltio.png');
+    background-image: url('../img/sponsors/veltio.png');
   }
   &.thanpa {
     background-size: 80%;
-    background-image: url('../img/prizes/thanpa.png');
+    background-image: url('../img/sponsors/thanpa.png');
     background-color: #3b3b3c;
   }
   &.computerschool {
     background-size: 80%;
-    background-image: url('../img/prizes/computerschool.png');
+    background-image: url('../img/sponsors/computerschool.png');
   }
   &.kenotom {
     background-size: 80%;
-    background-image: url('../img/prizes/kenotom.png');
+    background-image: url('../img/sponsors/kenotom.png');
   }
   &.draxis {
     background-size: 80%;
-    background-image: url('../img/prizes/draxis.png');
+    background-image: url('../img/sponsors/draxis.png');
   }
   &.foodtecsolutions {
     background-size: 80%;
-    background-image: url('../img/prizes/foodtecsolutions.png');
+    background-image: url('../img/sponsors/foodtecsolutions.png');
+  }
+  &.yummywallet {
+    background-size: 80%;
+    background-image: url('../img/sponsors/yummywallet.png');
   }
 
   // Media Partners
@@ -555,6 +559,8 @@ a {
     background-size: 80%;
     background-image: url('../img/media/serrestv.jpeg');
   }
+
+  // Sub-organizers
   &.serres-unesco {
     background-size: 80%;
     background-image: url('../img/media/serres_unesco.jpg');
@@ -562,6 +568,10 @@ a {
   &.uil-unesco {
     background-size: 80%;
     background-image: url('../img/media/uil_unesco.jpg');
+  }
+  &.dimos-serron {
+    background-size: 80%;
+    background-image: url('../img/media/dimos_serron.png');
   }
 }
 
