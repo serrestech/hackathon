@@ -7,7 +7,7 @@ function getTimeRemaining(endtime) {
   return {
     'total': t,
     'days': days,
-    'hours': hours + 24 * days,
+    'hours': hours,
     'minutes': minutes,
     'seconds': seconds
   };
