@@ -71,11 +71,9 @@ The **quality of the Algorithm** you present and the **Presentation** you make w
 
 Each project will receive a mark from 0 to 100. 
 
-Part A weighs 10%, Part B weighs 60%, Part C weighs 15% and Part D will weigh 15%. 
+Part A weighs 10%, Part B weighs 60%, Part C weighs 15% and Part D will weigh 15%.
 
-If you can deduce a proper graph using  information for the available routes your map API provides (i.e. deduce correctly how the edges connect the vertices in the graph as in the example above) a bonus 10 marks will be given.
-
-The A and C parts will be judged by the SerresTech/TEI Committee and by the Sponsors. Also the same way a mark will be given to your algorithm (described in your presentation).
+The A, C and D parts will be judged by the SerresTech/TEI Committee and by the Sponsors. Also the same way a mark will be given to your algorithm (described in your presentation).
 
 In Part B. For every part p, and each team n the distance d(n) calculated by team n, will be divided against the max(d(n)) of that part.
 
