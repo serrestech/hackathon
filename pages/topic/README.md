@@ -37,12 +37,12 @@ _**Table 1**. Exact location (Lat/Lon) of the dustbins in each Location (village
 
 ## Part B
 
-1. Assume that there are dustbins in all of the 8 villages and a lorry will need to pick them up and transfer all of them to "Adelfiko". Deduce the shortest route to follow
-2. Do the above but with the requirement that the lorry only goes to "Adelfiko" when it is full.
-3. Assume that there are dustbins only in "Koumaria", "Skoutari", "Peponia" and "Provatas". Deduce the shortest route to follow.
-4. Assume the same as before, but after you picked up the second dustbin, dustbins also appear in "Provatas" and "K. Mitrousi".
-5. Assume that the dustbins are more than what one lorry can transfer and you need two lorries to transfer them. Assume that each dustbin weighs 100kg and each lorry can only carry up to 400kg and that all dustbins are full. Deduce the shortest route for the two lorries.
-6. Assume that the dustbins are more than what one lorry can transfer. Assume that you have one lorry that can carry 500kg and one that can carry 300kg. Deduce the shortest route for the two lorries whereas the weight of the bin in each village are as follows:
+1. Assume that there are dustbins in all of the 8 villages and a lorry will need to pick them up and transfer all of them to "Adelfiko". Deduce the shortest route to follow. Notice that you can go to Adelfiko more than once.
+2. Do the above but with the requirement that the lorry only goes once to "Adelfiko" when it is full.
+3. Assume that there are dustbins only in "Koumaria", "Skoutari", "Peponia" and "Provatas". Deduce the shortest route to follow so you end to Adelfiko only once.
+4. Assume the same as before, but after you picked up the second dustbin, dustbins also appear in "A. Kamila" and "K. Mitrousi".
+5. Assume that the dustbins are more than what one lorry can transfer and you need two lorries to transfer them. Assume that each dustbin weighs 100kg and each lorry can only carry up to 400kg and that all dustbins are full. Deduce the shortest route for the two lorries so you end to Adelfiko only once.
+6. Assume that the dustbins are more than what one lorry can transfer. Assume that you have one lorry that can carry 500kg and one that can carry 300kg. Deduce the shortest route for the two lorries so you end to Adelfiko only once whereas the weight of the bin in each village are as follows:
 
 
 | **Bin weight (kg)** | **Location** |
