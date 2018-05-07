@@ -396,194 +396,145 @@ a {
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 80%;
   border-radius: 50%;
   padding-bottom: $width;
   margin: 0 auto;
   width: $width;
 
-  &.gear-vr {
-    background-size: 80%;
-    background-image: url('../img/sponsors/samsung-gear-vr.jpg');
-  }
-
-  &.gopro {
-    background-size: 60%;
-    background-image: url('../img/sponsors/gopro-hero-session.jpg');
-  }
-
-  &.amazon-gift-cards {
-    background-size: 60%;
-    background-image: url('../img/sponsors/amazon-gift-cards.png');
-  }
-
   &.computerlab {
-    background-size: 80%;
     background-image: url('../img/sponsors/computerlab.png');
   }
   &.schoox {
-    background-size: 80%;
     background-image: url('../img/sponsors/schoox.png');
   }
   &.datascouting {
-    background-size: 80%;
     background-image: url('../img/sponsors/datascouting.png');
   }
   &.interworks {
-    background-size: 80%;
     background-image: url('../img/sponsors/interworks.png');
   }
   &.mkihellas {
-    background-size: 80%;
     background-image: url('../img/sponsors/mkihellas.png');
   }
   &.tessera {
-    background-size: 80%;
     background-image: url('../img/sponsors/tessera.png');
   }
   &.itsaur {
-    background-size: 80%;
     background-image: url('../img/sponsors/itsaur.jpg');
   }
-  &.mammaspizza {
-    background-size: 80%;
-    background-image: url('../img/sponsors/mammaspizza.png');
-  }
-  &.rekor {
-    background-size: 80%;
-    background-image: url('../img/sponsors/rekor.png');
-  }
-  &.serresdelivery {
-    background-size: 80%;
-    background-image: url('../img/sponsors/serresdelivery.png');
-  }
-  &.girogirooloi{
-    background-size: 80%;
-    background-image: url('../img/sponsors/girogirooloi.jpg');
-    background-color: #32292c;
-  }
-  &.kaliteros{
-    background-size: 80%;
-    background-image: url('../img/sponsors/kaliteros.jpg');
-  }
-  &.nektar {
-    background-size: 80%;
-    background-image: url('../img/sponsors/nektar.png');
-  }
-  &.special{
-    background-size: 80%;
-    background-image: url('../img/sponsors/special.jpg');
-  }
-  &.krikri {
-    background-size: 80%;
-    background-image: url('../img/sponsors/krikri.jpg');
-  }
   &.athlenda {
-    background-size: 80%;
     background-image: url('../img/sponsors/athlenda.png');
   }
   &.veltio {
-    background-size: 80%;
     background-image: url('../img/sponsors/veltio_black.png');
     background-color: #000;
   }
   &.deloitte {
-    background-size: 80%;
     background-image: url('../img/sponsors/deloitte.png');
   }
+  &.routee {
+    background-image: url('../img/sponsors/routee.png');
+  }
   &.thanpa {
-    background-size: 80%;
     background-image: url('../img/sponsors/thanpa.png');
     background-color: #3b3b3c;
   }
   &.computerschool {
-    background-size: 80%;
     background-image: url('../img/sponsors/computerschool.png');
   }
   &.kenotom {
-    background-size: 80%;
     background-image: url('../img/sponsors/kenotom.png');
   }
   &.draxis {
-    background-size: 80%;
     background-image: url('../img/sponsors/draxis.png');
   }
   &.foodtecsolutions {
-    background-size: 80%;
     background-image: url('../img/sponsors/foodtecsolutions.png');
   }
   &.yummywallet {
-    background-size: 80%;
     background-image: url('../img/sponsors/yummywallet.png');
+  }
+
+  // Food Sponsors
+  &.mammaspizza {
+    background-image: url('../img/sponsors/mammaspizza.png');
+  }
+  &.rekor {
+    background-image: url('../img/sponsors/rekor.png');
+  }
+  &.serresdelivery {
+    background-image: url('../img/sponsors/serresdelivery.png');
+  }
+  &.girogirooloi{
+    background-image: url('../img/sponsors/girogirooloi.jpg');
+    background-color: #32292c;
+  }
+  &.kaliteros{
+    background-image: url('../img/sponsors/kaliteros.jpg');
+  }
+  &.nektar {
+    background-image: url('../img/sponsors/nektar.png');
+  }
+  &.special{
+    background-image: url('../img/sponsors/special.jpg');
+  }
+  &.krikri {
+    background-image: url('../img/sponsors/krikri.jpg');
   }
 
   // Media Partners
   &.skywalker {
-    background-size: 80%;
     background-image: url('../img/media/skywalker.jpg');
   }
   &.emea {
-    background-size: 80%;
     background-image: url('../img/media/emea.jpg');
   }
   &.ellak {
-    background-size: 80%;
     background-image: url('../img/media/ellak.png');
   }
   &.startup {
-    background-size: 80%;
     background-image: url('../img/media/startup.png');
   }
   &.epixeiro {
-    background-size: 80%;
     background-image: url('../img/media/epixeiro.png');
   }
   &.autonomous {
-    background-size: 80%;
     background-image: url('../img/media/autonomous.png');
     background-color: #000;
   }
   &.goserres {
-    background-size: 80%;
     background-image: url('../img/media/goserres.png');
   }
   &.serraikanea {
-    background-size: 80%;
     background-image: url('../img/media/serraikanea.png');
     background-color: #1c0067;
   }
   &.eproodos {
-    background-size: 80%;
     background-image: url('../img/media/eproodos.png');
   }
   &.startupper {
-    background-size: 80%;
     background-image: url('../img/media/startupper.png');
   }
   &.anexartitos {
-    background-size: 80%;
     background-image: url('../img/media/anexartitos.png');
   }
   &.epiloges {
-    background-size: 80%;
     background-image: url('../img/media/epiloges.png');
     background-color: #e2001a;
   }
   &.serrestv {
-    background-size: 80%;
     background-image: url('../img/media/serrestv.jpeg');
   }
 
-  // Sub-organizers
+  // Golden Sponsors
   &.serres-unesco {
-    background-size: 80%;
     background-image: url('../img/media/serres_unesco.jpg');
   }
   &.uil-unesco {
-    background-size: 80%;
     background-image: url('../img/media/uil_unesco.jpg');
   }
   &.dimos-serron {
-    background-size: 80%;
     background-image: url('../img/media/dimos_serron.png');
   }
 }
