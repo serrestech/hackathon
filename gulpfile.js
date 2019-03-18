@@ -5,23 +5,33 @@ var sass = require('gulp-sass');
 var cssnano = require('gulp-cssnano');
 var webserver = require('gulp-webserver');
 
-gulp.task('sass', function () {
-  return gulp.src('./sass/**/*.scss')
+function mysass() {
+  return gulp
+    .src('./sass/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(cssnano())
     .pipe(gulp.dest('./css'));
-});
+}
 
-gulp.task('sass:watch', function () {
-  gulp.watch('./sass/**/*.scss', ['sass']);
-});
+function sasswatch() {
+  return gulp.watch('./sass/**/*.scss', mysass);
+}
 
-gulp.task('serve', function() {
-  gulp.src('./')
+function serve() {
+  return gulp
+    .src('./')
     .pipe(webserver({
       livereload: true,
       open: true
     }));
-});
+}
 
-gulp.task('default', ['sass', 'sass:watch', 'serve']);
+// Specify if tasks run in series or parallel using `gulp.series` and `gulp.parallel`
+var build = gulp.parallel(mysass, serve);
+
+exports.mysass = mysass;
+exports.serve = serve;
+exports.build = build;
+
+// Define default task that can be called by just running `gulp` from cli
+exports.default = build;

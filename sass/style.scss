@@ -4,11 +4,12 @@ $theme-green: #24b34b;
 $theme-gray: #313131;
 $theme-blue: #035e84;
 $theme-red: #c10000;
+$theme-orange: #ef5d00;
 $theme-white: #ffffff;
 
 $dark-blue: #248ab5;
 
-$brand-primary: $theme-red;
+$brand-primary: $theme-orange;
 $base-color: #fff;
 
 $font-weight-normal: 400;
@@ -306,11 +307,13 @@ a {
 }
 
 .date-lg {
-  font-size: 180px;
-  line-height: 57%;
+  color: $brand-primary;
+  font-size: 90px;
+  line-height: 60%;
   display: block;
   background: #fff;
-  color: $brand-primary;
+  letter-spacing: -10px;
+  text-align: center;
 }
 
 .month {
