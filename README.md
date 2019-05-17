@@ -2,6 +2,7 @@
 
 [hackathon.serrestech.gr](http://hackathon.serrestech.gr)
 
+- Archive of [Hackathon 2018](http://hackathon.serrestech.gr/2018)
 - Archive of [Hackathon 2017](http://hackathon.serrestech.gr/2017)
 
 # Install
