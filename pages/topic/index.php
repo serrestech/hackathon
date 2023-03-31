@@ -1,6 +1,6 @@
 <?php
 
-  $topic_url = "https://github.com/serrestech/hackathon/tree/topic";
+  $topic_url = "bit.ly/serreshack-topic";
 
   header("HTTP/1.1 301 Moved Permanently");
   header("Location: " . $topic_url);

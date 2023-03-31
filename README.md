@@ -1,7 +1,8 @@
-# Hackathon Serres 2018
+# Hackathon Serres
 
 [hackathon.serrestech.gr](http://hackathon.serrestech.gr)
 
+- Archive of [Hackathon 2019](http://hackathon.serrestech.gr/2019)
 - Archive of [Hackathon 2018](http://hackathon.serrestech.gr/2018)
 - Archive of [Hackathon 2017](http://hackathon.serrestech.gr/2017)
 
@@ -21,15 +22,13 @@ cd hackathon
 
 ## Install Dependencies
 ```
-npm install
+npm install --include=dev
 ```
 
 ## Run
 ```
-gulp
+npm run start
 ```
-### (Gulp opens url http://localhost:8000)
-
 
 ## Have fun !
 ```
