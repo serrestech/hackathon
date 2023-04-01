@@ -1,6 +1,6 @@
 // sass --watch scss/style.scss:css/style.css --style compressed --sourcemap=none
 
-$theme-green: #006e25;
+$theme-green: #01634f; // Petrol of road sign (https://colorcodes.io/green/road-sign-green-color-codes)
 $theme-gray: #313131;
 $theme-blue: #035e84;
 $theme-red: #c10000;
@@ -23,7 +23,7 @@ body {
   font-family: Jura, sans-serif;
   font-size: 24px;
   overflow-x: hidden;
-  font-weight: 400;
+  font-weight: 500;
   @media (max-width: $tablet-width) {
     font-size: 18px;
   }
@@ -44,10 +44,10 @@ body {
 
 ol,
 ul {
-  padding-left: 20px;
+  padding: 20px 0 20px 20px;
 
   > li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
