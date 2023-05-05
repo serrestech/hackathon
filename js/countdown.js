@@ -37,5 +37,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date("May 5, 2023 19:00:00 GMT+0200");
+var deadline = new Date("May 7, 2023 13:00:00 GMT+0300");
 initializeClock('countdown', deadline);
